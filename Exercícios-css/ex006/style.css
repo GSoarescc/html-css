@@ -1,0 +1,54 @@
+body {
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;   
+    margin: 10px;
+}
+
+main {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow:  1px 4px 0px black;}
+
+nav > a {
+    color: #fff;
+    text-decoration: none;
+    margin: 50px;
+    
+} 
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+
+article {
+    background: lightgray;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: darkgrey;
+}
+
+footer {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    padding: 1px;
+}
+
+
+

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Anotações HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Anotações HTML</h1>
+
+    <h1>
+        Head:
+    </h1>
+
+    <p>
+        Em HTML, a tag head é usada como cabeçalho, ou seja, um conjunto de informações de uma página de um site
+    </p>
+
+    <h1>
+        Body:
+    </h1>
+
+    <p>
+        A tag Body engloba todos os elementos do corpo do documento
+    </p>
+
+    <h1>Hierarquia de Texto</h1>
+   <p>As tags "H(1,2,3,4,5,6)" servem para determinar a hierarquia dos textos sendo o H1 o maior e o H6 o menor</p>
+   <h1>1</h1>
+   <h2>2</h2>
+    <h3>3</h3>
+    <h4>4</h4>
+    <h5>5</h5>
+    <h6>6</h6>
+
+    <h1>Parágrafos e Quebras</h1>
+
+    <p>a tag <b>p</b> serve para criar um parágrafo</p>
+    <p>a tag <b>br</b> serve para pular uma linha </p>
+
+    <h1>Símbolos e emojis</h1>
+
+    <p>
+        a tag & pode ser utilizada para criar diferentes símbolos <br>
+        Alguns exemplos são:
+        <ol>
+            <li>
+                dollar : &dollar;
+            </li>
+            <li>euro: &euro;</li>
+            <li>male: &male;</li>
+            <li>female: &female;</li>
+            <li>copy: &copy;</li>
+            <li>trade: &trade;</li>
+        </ol>
+        <p>Emojis podem ser criados a partir de códigos começando com "&#x" <br>
+           exemplo de emoji: &#x1F3C8  
+        </p>
+
+    </p>
+
+    <h1>Negrito e Itálico</h1>
+
+
+    <h2>Negrito/Forte</h2>
+
+    <b>Negrito</b> com a tag b (sem semântica): 
+    <br>
+    <strong>Negrito</strong> com a tag Strong(com semântica): 
+    <h2> itálico/ênfase </h2>
+    <p>
+    <i>Itálico</i> com a tag I(sem semântica)
+
+    <br> <EM>Itálico</EM> com a tag EM(com semântica)
+
+    </p>
+
+    <h1>Listas:</h1>
+
+    Posso criar uma lista ordenada com a tag &lt;ol&gt;&lt;/ol&gt;
+    <br> os itens da lista são criados com a tag li 
+    
+
+    <ol>
+        <li>acordar</li>
+        <li>tomar banho</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>estudar</li>
+    </ol>
+     é possível mudar o estilo de ordenação com o parâmetro type
+
+     <ol type="A">
+        <li>acordar</li>
+        <li>tomar banho</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>estudar</li>
+     </ol>
+
+     <p>também é possível criar listas sem ordenação com a tag &lt;ul&gt;&lt;/ul&gt;</p>
+
+     <ul>
+        <li>acordar</li>
+        <li>tomar banho</li>
+        <li>tomar café</li>
+        <li>escovar os dentes</li>
+        <li>estudar</li>
+
+     </ul>
+
+     <h2>Listas mistas</h2>
+
+     É possível criar listas dentro de outras listas:
+
+     <p>Elenco do flamengo
+
+        <ol>
+            <li>Goleiros
+                <ul>
+                    <li>Rossi</li>
+                    <li>Matheus Cunha</li>
+                </ul>
+            </li>
+            <li>Laterais
+                <ul>
+                    <li>
+                        Varella
+                    </li>
+                    <li>Wesley</li>
+                    <li>
+                        Ayrton Lucas
+                    </li>
+                    <li>Mathias Viña</li>
+                </ul>
+            </li>
+        </ol>
+     </p>
+
+     <h2>listas de definição</h2>
+
+     <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>Javascript</dt>
+        <dd>linguagem de programação para a criação da interatividade de um site</dd>
+     </dl>
+
+
+    
+     <h1>Marcações</h1>
+    
+       posso criar um <mark>texto marcado</mark> com a tag mark
+       <br> O parâmetro style permite a alteração da cor da marcação.
+      <mark style="background-color: blueviolet;">texto marcado</mark>
+
+      <h1>Links</h1>
+      <h2>links podem ser criados com a tag a</h2>
+
+      <p>Alguns parêmetros utilizados são: <dl>
+        <dt><strong>rel</strong></dt>
+        <dd>Determina a relação do link com a página principal(External,prev,next, nofollow...)</dd>
+        <dt><strong>target</strong></dt>
+        <dd>Epecifica onde o link deve ser aberto(_blank,_self,_top)</dd>
+      </dl></p>
+
+      <h2>links internos x externos</h2>
+
+      
+
+      Link interno: <a href="pag002.html" rel="next">Página 2</a> (leva para a segunda página do site)
+    <br>
+      link externo: <a href="https://www.flamengo.com.br/" target="_blank" rel="external nofollow"
+     >Site do Flamengo</a>
+
+     <h2>Links em outras pastas</h2>
+     <p>Caso uma página esteja em uma pasta diferente, precisamos especificar no link. 
+        O atalho "Ctrl + Barra de espaço" faz isso automaticamente </p>
+        <p>Para voltar para uma página fora da pasta atual, usamos "../" na href</p>
+
+     <p>Exemplo: <a href="outras páginas/pag003.html" rel="next">Página 3</a></p>
+
+
+
+     <h1>Reproduzindo áudios</h1>
+     <p>Utilizamos a tag audio e o parametro controls para criar um player </p>
+     
+
+     <p><audio preload="metadata"  controls>
+        <source src="audios/hino-flamengo.mp3" type="audio/mp3">
+     </audio></p>
+
+     <h2>links para downloads</h2>
+     
+         <ul>
+            <li><a href="imagens/Gabigol.jpeg">Abrir imagem Gabigol</a></li>
+                <li><a href="imagens/Gabigol.jpeg" download="imagens/Gabigol.jpeg">Baixar imagem Gabigol</a></li>
+             
+             </ul>
+
+             <p><audio preload="metadata" controls>
+                <source src="audios/mario.mp3">
+             </audio></p>
+             
+             <h1>Vídeos</h1>
+
+            <video width="500px" controls poster="imagens/ddoi.png">
+
+                <source src="videos/Fire Tornado Spawns on Driveway.mp4" type="video/mp4">
+            </video>
+            
+
+             <p>&rightarrow;<a href="videos/Fire Tornado Spawns on Driveway.mp4" download="videos/Fire Tornado Spawns on Driveway.mp4">
+                Baixar vídeo</a></p>
+
+            <h2>Inserindo vídeos de hospedagem externa</h2>
+
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=kex3WEudXDEdMAJx"
+             title="YouTube video player" 
+            frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             allowfullscreen></iframe>
+
+             <p>Basta clicar em "incorporar" em um vídeo do youtube para gerar o código acima</p>
+
+             <hr>
+
+            
+
+    
+
+
+     
+
+
+
+     
+
+     
+
+   
+   
+
+   
+
+        <script src="script.js"></script>
+
+       
+   
+
+</body>
+</html>
