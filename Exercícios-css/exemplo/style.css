@@ -1,26 +1,28 @@
-body {
-    background-image: url(wallpaper001.jpg);
+table {
+width: 400px;
+height: 10vh;
+border-collapse: collapse;
+line-height: 2em;
+}
+
+td {
+    border: 3px solid black;
+    padding: 8px;
+    
+}
+
+.teste {
+    background-color: blueviolet;
 }
 
 
 
-.quadrado {
-display: inline-block;
-border: 2px solid black;
-width: 300px;
-height: 300px;
-background-color: lightgrey;
-border-radius: 10px;
+.Especiais {
+    background-image: url(pexels-florencia-potter-351283.jpg);
+    color: black;
 }
 
-#q1 {
-    background-color: skyblue;
-}
-
-#q3 {
-background-image: linear-gradient(to bottom, yellow, red);
-}
-
-#q2 {
-    background-image: url(pattern001.png);
+#pituca:hover {
+background-color: yellow;
+transition-duration: 0.7s;
 }
