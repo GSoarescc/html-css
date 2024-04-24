@@ -3,15 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pseudo elementos</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <h1> Pseudo elementos</h1>
-    <ul>
-        <li><a href="https://www.flamengo.com.br/" target="_blank">Site do Flamengo</a></li>
-        <li><a href="https://www.instagram.com/flamengo/" target="_blank">Instagram do Flamengo</a></li>
-        <li><a href="https://www.youtube.com/@flamengo" class="mengudo" target="_blank">Fla tv</a></li>
-    </ul>
+   <section>
+    <div id="fundo">
+     
+    </div>
+    <form>
+     <h1>Login</h1>
+     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as 
+        configurações no seu ambiente
+     </p>
+        <div class="barras">
+         <i class="material-icons">
+            person
+            </i>
+            <input type="text" id="username" value="E-mail or Username">
+         </div>
+        <label for="username">Login</label>
+        <div class="barras">
+         <i class="material-icons">
+            vpn_key
+         </i>
+            <input type="text" id="password" value="Password">
+         </div>
+        <label for="password">Password</label>
+        <div class="submit">
+           <input type="button" value="Entrar" id="ientrar"> <br>
+           <input type="button" value="Esqueci a senha" id="isenha">
+           <span class="material-icons"
+           id="mail">
+            mail
+            </span>
+        </div>
+    </form>
+   </section>
 </body>
 </html>

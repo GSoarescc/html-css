@@ -22,3 +22,7 @@ div > p {
 div:hover > p {
     display: block;
 }
+
+.material-symbols-outined {
+    width: 300px;
+}

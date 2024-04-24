@@ -79,3 +79,29 @@ article p {
    margin-bottom:10px ;
 }
 
+@media screen and (min-width:768px) {
+    i#burger {
+        display: none;
+    }
+   
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+        padding-right: 3px;
+    }
+
+    header a {
+        width: 8vw;
+        padding: 7px;
+        margin-top: 10px;
+        border-radius: 3px 3px 0px 0px;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
