@@ -1,0 +1,25 @@
+@media screen and (max-width:768px){
+  
+header {
+    flex-flow: column-reverse;
+    
+}
+
+#title {
+  text-align: center;
+  
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+#conta {
+    
+ 
+    
+}
+
+}

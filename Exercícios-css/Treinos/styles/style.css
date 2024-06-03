@@ -1,0 +1,134 @@
+* {
+     font-family: poppinsregular; 
+    
+}
+
+
+body {
+    background: rgb(34, 34,34);
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#title {
+    flex-flow: column;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+
+li {
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 10px;
+    
+       
+}
+
+ 
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: purple;
+    transition: .3s all;
+}
+
+
+
+#conta {
+    border: 1px solid purple;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#conta:hover {
+    background-color: purple;
+    color: #fff;
+}
+
+
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+main h2 {
+    line-height: 10px;
+    font-size: 4em;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: purple;
+}
+
+p {
+    font-family: poppinslight;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px; 
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+form [type="submit"]{
+    background-color: purple;
+    padding: 10px;  
+    color: #fff;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(216, 37, 216);
+    transition: .3s all;
+}
+
+.img-med {
+    width: 580px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
