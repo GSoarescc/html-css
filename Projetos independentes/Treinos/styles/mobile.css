@@ -1,25 +1,70 @@
 @media screen and (max-width:768px){
   
 header {
-    flex-flow: column-reverse;
+    flex-flow: column;
     
 }
+
 
 #title {
   text-align: center;
   
 }
 
+#lista {
+  display: none;
+}
+
 ul {
     display: flex;
     flex-flow: column;
     text-align: center;
+    padding: 0px;
 }
 
-#conta {
-    
- 
-    
+.material-symbols-outlined {
+  display: block !important;
+  width: 90%;
+  text-align: center;
+  border-radius: 3px;
 }
+
+.material-symbols-outlined:hover {
+  background-color: grey;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+main {
+  margin-top: 10px;
+  flex-flow: column;
+}
+
+main h2 {
+  font-size: 2.7em;
+  line-height: 1px;
+  
+}
+
+span {
+  margin-bottom: -25px;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+main p {
+  padding: 15px;
+}
+
+.img-med {
+  display: none;
+}
+
+
 
 }

@@ -65,7 +65,9 @@ a:hover {
     color: #fff;
 }
 
-
+.material-symbols-outlined {
+    display: none !important;
+}
 
 main {
     margin-top: 50px;
@@ -81,6 +83,7 @@ main h2 {
 
 span {
     color: purple;
+    
 }
 
 p {
@@ -117,6 +120,14 @@ form [type="submit"]:hover {
 .img-med {
     width: 580px;
 }
+
+footer {
+    text-align: center;
+}
+
+
+
+
 
 
 
