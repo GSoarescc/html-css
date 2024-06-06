@@ -1,0 +1,24 @@
+@media screen and (min-width:769px) and (max-width:1178px){
+    
+    header {
+        display: flex;
+        flex-flow: column;
+    }
+
+    body {
+        margin: 0 20px;
+    }
+
+    main h2 {
+        font-size: 2.4em;
+    }
+
+    .img-med {
+        width: 350px;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+
+    }
